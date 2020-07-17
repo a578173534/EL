@@ -13,7 +13,7 @@
 </head>
 <body>
 <center>
-    <form action="/myWeb/exam">
+    <form action="??">
         <table border="2">
             <tr>
                 <td>试题编号</td>
