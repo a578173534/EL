@@ -43,7 +43,15 @@
         <servlet-name>QuestionRandServlet</servlet-name>
         <servlet-class>com.ggs.controller.QuestionRandServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ExamServlet</servlet-name>
+        <servlet-class>com.ggs.controller.ExamServlet</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>ExamServlet</servlet-name>
+        <url-pattern>/exam</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>QuestionRandServlet</servlet-name>
         <url-pattern>/question/rand</url-pattern>

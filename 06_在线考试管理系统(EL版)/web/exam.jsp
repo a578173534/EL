@@ -13,7 +13,7 @@
 </head>
 <body>
 <center>
-    <form action="??">
+    <form action="/myWeb/exam">
         <table border="2">
             <tr>
                 <td>试题编号</td>
@@ -25,7 +25,7 @@
                 <td>答案</td>
             </tr>
             <%
-                List<Question> questionList =(List) request.getAttribute("key");
+                List<Question> questionList =(List) session.getAttribute("key");
                 for(Question question:questionList){
             %>
             <tr>
